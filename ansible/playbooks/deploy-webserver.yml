@@ -4,7 +4,6 @@
   become: yes
   vars_files: 
   - ../vars/credentials.yml
-  - ../vars/main.yml
   roles:
   - ../roles/webserver
   - ../roles/filebeat
